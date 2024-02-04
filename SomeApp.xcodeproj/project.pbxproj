@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D74D994B2B6BCC5A006E59F7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74D994A2B6BCC5A006E59F7 /* UIView+Extensions.swift */; };
 		D75007252B6BAE7A0001ABD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75007242B6BAE7A0001ABD6 /* AppDelegate.swift */; };
 		D75007272B6BAE7A0001ABD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75007262B6BAE7A0001ABD6 /* SceneDelegate.swift */; };
 		D75007292B6BAE7A0001ABD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75007282B6BAE7A0001ABD6 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D74D994A2B6BCC5A006E59F7 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		D75007212B6BAE7A0001ABD6 /* SomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75007242B6BAE7A0001ABD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D75007262B6BAE7A0001ABD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D74D99492B6BCC42006E59F7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D74D994A2B6BCC5A006E59F7 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D75007182B6BAE7A0001ABD6 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		D75007232B6BAE7A0001ABD6 /* SomeApp */ = {
 			isa = PBXGroup;
 			children = (
+				D74D99492B6BCC42006E59F7 /* Extensions */,
 				D75007382B6BB0C40001ABD6 /* App */,
 				D75007392B6BB0CC0001ABD6 /* Sources */,
 				D750073A2B6BB0E50001ABD6 /* Resources */,
@@ -134,6 +145,11 @@
 			mainGroup = D75007182B6BAE7A0001ABD6;
 			packageReferences = (
 				D74D99422B6BB9D6006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D74D99432B6BBA92006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D74D99442B6BBAC0006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D74D99452B6BBAEB006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D74D99462B6BBB26006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D74D99472B6BBD89006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = D75007222B6BAE7A0001ABD6 /* Products */;
 			projectDirPath = "";
@@ -163,6 +179,7 @@
 			files = (
 				D75007292B6BAE7A0001ABD6 /* ViewController.swift in Sources */,
 				D75007252B6BAE7A0001ABD6 /* AppDelegate.swift in Sources */,
+				D74D994B2B6BCC5A006E59F7 /* UIView+Extensions.swift in Sources */,
 				D75007272B6BAE7A0001ABD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +391,46 @@
 
 /* Begin XCRemoteSwiftPackageReference section */
 		D74D99422B6BB9D6006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		D74D99432B6BBA92006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		D74D99442B6BBAC0006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		D74D99452B6BBAEB006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.7.0;
+			};
+		};
+		D74D99462B6BBB26006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D74D99472B6BBD89006E59F7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
